@@ -4,7 +4,7 @@ A React Native ToDo application built with **Redux Toolkit**, demonstrating **st
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This lab project teaches how to integrate **Redux Toolkit** in a React Native app to manage application state efficiently.
 
@@ -16,6 +16,7 @@ This lab project teaches how to integrate **Redux Toolkit** in a React Native ap
 ---
 
 ## Folder Structure
+```
 ReduxTodoApp/
 ├── src/
 │   ├── store/
@@ -24,16 +25,16 @@ ReduxTodoApp/
 │   ├── screens/
 │   │   └── TodoListScreen.js
 └── App.js
-
+```
 ---
 
-## 🏗️ Setup Instructions
+## Setup Instructions
 
 ### Create Project
-npx react-native init ReduxTodoApp
-cd ReduxTodoApp
-npm install @reduxjs/toolkit react-redux
-npm install react-native-vector-icons
+- npx react-native init ReduxTodoApp
+- cd ReduxTodoApp
+- npm install @reduxjs/toolkit react-redux
+- npm install react-native-vector-icons
 
 - Create desired components
 - Wrap App.js with Redux Provider
